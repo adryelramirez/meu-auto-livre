@@ -26,7 +26,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-4 font-semibold">
-            Com Paulo Ojeda, instrutor com 10 anos de experiência
+            Com Paulo Ojeda, instrutor com 4 anos de experiência no CFC Habilitar
           </p>
           
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed">
@@ -57,11 +57,11 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-6 max-w-xl">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-1">10+</div>
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-1">4+</div>
               <div className="text-sm text-primary-foreground/80">Anos de Experiência</div>
             </div>
             <div className="text-center border-x border-primary-foreground/20">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-1">500+</div>
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-1">300+</div>
               <div className="text-sm text-primary-foreground/80">Alunos Aprovados</div>
             </div>
             <div className="text-center">

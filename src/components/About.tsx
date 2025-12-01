@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, BookOpen, Heart, Target } from "lucide-react";
-import carImage from "@/assets/car-top-view.jpg";
+import pauloImage from "@/assets/paulo-ojeda.jpg";
 
 const About = () => {
   return (
@@ -11,9 +11,9 @@ const About = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-hover">
               <img 
-                src={carImage} 
-                alt="Veículo de instrução" 
-                className="w-full h-[500px] object-cover"
+                src={pauloImage} 
+                alt="Paulo Ojeda - Instrutor de Trânsito" 
+                className="w-full h-[500px] object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
             </div>
@@ -47,9 +47,10 @@ const About = () => {
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Profissional certificado com mais de 10 anos de experiência na formação de 
-              condutores. Minha missão é tornar o processo de habilitação mais acessível, 
-              eficiente e menos burocrático para todos.
+              Profissional certificado com 4 anos de experiência na formação de 
+              condutores, tendo atuado no CFC Habilitar. Minha missão é tornar o processo 
+              de habilitação mais acessível, eficiente e menos burocrático para todos, 
+              oferecendo um atendimento personalizado e de qualidade.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -73,8 +74,8 @@ const About = () => {
                 <div>
                   <h3 className="font-heading text-xl font-bold mb-1">Experiência</h3>
                   <p className="text-muted-foreground">
-                    Especialização em direção defensiva e técnicas modernas de ensino, 
-                    com centenas de alunos aprovados.
+                    4 anos de atuação no CFC Habilitar, especialização em direção defensiva 
+                    e técnicas modernas de ensino, com centenas de alunos aprovados.
                   </p>
                 </div>
               </div>
@@ -95,11 +96,11 @@ const About = () => {
 
             <div className="grid grid-cols-3 gap-4 p-6 gradient-card rounded-xl shadow-soft">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-1">500+</div>
+                <div className="text-3xl font-bold text-primary mb-1">300+</div>
                 <div className="text-xs text-muted-foreground">Alunos</div>
               </div>
               <div className="text-center border-x border-border">
-                <div className="text-3xl font-bold text-accent mb-1">10+</div>
+                <div className="text-3xl font-bold text-accent mb-1">4</div>
                 <div className="text-xs text-muted-foreground">Anos</div>
               </div>
               <div className="text-center">
