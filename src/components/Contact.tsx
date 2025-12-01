@@ -25,10 +25,10 @@ const Contact = () => {
               <h3 className="font-heading text-xl font-bold mb-2">Telefone</h3>
               <p className="text-muted-foreground mb-4">Ligue para agendar</p>
               <a 
-                href="tel:+555384545189" 
+                href="tel:+5511999999999" 
                 className="text-primary font-semibold hover:text-primary/80 transition-colors"
               >
-                (53) 8454-5189
+                (11) 99999-9999
               </a>
             </CardContent>
           </Card>
@@ -42,7 +42,7 @@ const Contact = () => {
               <p className="text-muted-foreground mb-4">Mensagem instantânea</p>
               <Button 
                 variant="cta"
-                onClick={() => window.open('https://wa.me/555384545189', '_blank')}
+                onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
               >
                 Enviar Mensagem
               </Button>
@@ -57,10 +57,10 @@ const Contact = () => {
               <h3 className="font-heading text-xl font-bold mb-2">E-mail</h3>
               <p className="text-muted-foreground mb-4">Dúvidas e informações</p>
               <a 
-                href="mailto:pauloojedasgt@gmail.com" 
+                href="mailto:contato@instrutor.com" 
                 className="text-primary font-semibold hover:text-primary/80 transition-colors"
               >
-                pauloojedasgt@gmail.com
+                contato@instrutor.com
               </a>
             </CardContent>
           </Card>
@@ -78,7 +78,8 @@ const Contact = () => {
                   <div>
                     <h4 className="font-heading font-bold text-lg mb-1">Área de Atendimento</h4>
                     <p className="text-muted-foreground">
-                      R. Gen. Osório, 468 - Centro, Rio Grande - RS, 96200-410
+                      Zona Sul, Centro e ABC Paulista. 
+                      Outras regiões sob consulta.
                     </p>
                   </div>
                 </div>
@@ -113,7 +114,7 @@ const Contact = () => {
             <Button 
               variant="cta" 
               size="xl"
-              onClick={() => window.open('https://wa.me/555384545189', '_blank')}
+              onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
             >
               <Phone className="w-5 h-5" />
               Agendar Aula Grátis

@@ -39,7 +39,7 @@ const Hero = () => {
               variant="cta" 
               size="xl"
               className="group"
-              onClick={() => window.open('https://wa.me/555384545189', '_blank')}
+              onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
             >
               <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform" />
               Agendar Aula Grátis
