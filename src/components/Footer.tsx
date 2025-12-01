@@ -67,11 +67,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-primary-foreground/80">
                 <Phone className="w-4 h-4" />
-                <span>(11) 99999-9999</span>
+                <span>(53) 8454-5189</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/80">
                 <Mail className="w-4 h-4" />
-                <span>contato@instrutor.com</span>
+                <span>pauloojedasgt@gmail.com</span>
               </li>
             </ul>
             
@@ -93,7 +93,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60 text-sm">
-          <p>© 2024 Paulo Ojeda - Instrutor Autônomo de Trânsito. Todos os direitos reservados.</p>
+          <p>© 2025 Paulo Ojeda - Instrutor Autônomo de Trânsito. Todos os direitos reservados.</p>
           <p className="mt-2">CNPJ: 00.000.000/0001-00 • Credenciamento DETRAN</p>
         </div>
       </div>
