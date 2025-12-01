@@ -11,7 +11,10 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
                 <Car className="w-6 h-6 text-accent-foreground" />
               </div>
-              <span className="font-heading text-2xl font-bold">Instrutor Autônomo</span>
+              <div>
+                <span className="font-heading text-2xl font-bold block">Paulo Ojeda</span>
+                <span className="text-sm text-primary-foreground/70">Instrutor Autônomo de Trânsito</span>
+              </div>
             </div>
             <p className="text-primary-foreground/80 leading-relaxed max-w-md">
               Formação de condutores com qualidade, flexibilidade e economia. 
@@ -90,7 +93,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60 text-sm">
-          <p>© 2024 Instrutor Autônomo de Trânsito. Todos os direitos reservados.</p>
+          <p>© 2024 Paulo Ojeda - Instrutor Autônomo de Trânsito. Todos os direitos reservados.</p>
           <p className="mt-2">CNPJ: 00.000.000/0001-00 • Credenciamento DETRAN</p>
         </div>
       </div>
