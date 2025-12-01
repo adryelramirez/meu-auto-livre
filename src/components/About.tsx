@@ -34,9 +34,17 @@ const About = () => {
 
           {/* Content Side */}
           <div>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Sobre o Instrutor
+            <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full mb-4">
+              <span className="font-semibold">Instrutor Credenciado</span>
+            </div>
+            
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-3">
+              Paulo Ojeda
             </h2>
+            
+            <p className="text-xl text-accent font-semibold mb-6">
+              Instrutor Autônomo de Trânsito
+            </p>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Profissional certificado com mais de 10 anos de experiência na formação de 
